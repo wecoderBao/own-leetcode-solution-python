@@ -46,6 +46,7 @@ class Solution:
             if count == k:
                 temp = q.next
                 tempHead = q.next
+                # 链表反转采用头插法
                 while temp != p:
                     node = temp
                     temp = temp.next
