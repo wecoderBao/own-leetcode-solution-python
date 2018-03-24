@@ -23,7 +23,7 @@ class Solution:
         divisor = abs(divisor)
         subsum = divisor
         while dividend >= divisor:
-            # 除数扩大两倍
+            #  位运算 除数扩大两倍
             while (subsum << 1) <= dividend:
                 # 商扩大两倍
                 cnt <<= 1
